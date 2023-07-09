@@ -69,29 +69,29 @@ fun_ajuda() {
         env_msg="<b>◈──────────────────◈</b>\n"
         env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
-        env_msg+="⚠️ <b>Available Commands</b>\n\n"
-        env_msg+="[<b>01</b>] /menu = Display menu\n"
-        env_msg+="[<b>02</b>] /info = Display information\n"
-        env_msg+="[<b>03</b>] /help = Information about options\n\n"
-        env_msg+="⚠️ <b>Available Options</b>\n\n"
+        env_msg+="⚠️ <b>دستورات موجود </b>\n\n"
+        env_msg+="[<b>01</b>] /menu = دستورات موجود \n"
+        env_msg+="[<b>02</b>] /info = نمایش اطلاعات\n"
+        env_msg+="[<b>03</b>] /راهنما = Information about options\n\n"
+        env_msg+="⚠️ <b>گزینه های موجود :</b>\n\n"
         env_msg+="• <u>ایجاد کاربر جدید </u> = Create ssh user\n\n"
         env_msg+="• <u>ایجاد کاربر تست</u> = Create ssh test\n\n"
         env_msg+="• <u>حذف کاربر </u> = حذف کاربر  ssh user\n\n"
         env_msg+="• <u>لیست کاربران</u> = لیست کاربرانrmation\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Display Online Users\n\n"
-        env_msg+="• <u>VPS INFO</u> = Server Information\n\n"
-        env_msg+="• <u>CHANGE PASSWORD</u> = Change ssh password\n\n"
-        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
-        env_msg+="• <u>CHANGE DATE</u> = Change date ssh\n\n"
-        env_msg+="• <u>EXPIRED</u> = حذف کاربر  expired ssh\n\n"
-        env_msg+="• <u>BACKUP</u> = Create ssh Backup and resellers\n\n"
-        env_msg+="• <u>OPTIMIZE</u> = Clear cache - ram\n\n"
-        env_msg+="• <u>SPEEDTEST</u> = Connection test\n\n"
-        env_msg+="• <u>FILES</u> = Host Files\n\n"
-        env_msg+="• <u>RESALE</u> = Manage Resellers\n\n"
-        env_msg+="• <u>AUTOBACKUP</u> = On/Off Automatic Backup\n\n"
-        env_msg+="• <u>REPORT</u> = Information about resellers\n\n"
-        env_msg+="• <u>HELP</u> = Information about options\n\n"
+        env_msg+="• <u>کاربران آنلاین</u> = Display کاربران آنلاین\n\n"
+        env_msg+="• <u>درباره سرور </u> = Server Information\n\n"
+        env_msg+="• <u>تغییر رمز کاربر</u> = Change ssh password\n\n"
+        env_msg+="• <u>مدیریت تعداد کاربر</u> = Change ssh limit\n\n"
+        env_msg+="• <u>تغییر زمان </u> = تغییر زمان  ssh\n\n"
+        env_msg+="• <u>حذف کاربران تمام شده !</u> = حذف کاربر  حذف کاربران تمام شده ! ssh\n\n"
+        env_msg+="• <u>حذف کاربران تمام شده !</u> = Create ssh حذف کاربران تمام شده ! and resellers\n\n"
+        env_msg+="• <u>بهینه سازی سیستم</u> = Clear cache - ram\n\n"
+        env_msg+="• <u>تست سرعت سرور</u> = Connection test\n\n"
+        env_msg+="• <u>فایل ها</u> = Host فایل ها\n\n"
+        env_msg+="• <u>نمایندگان</u> = Manage Resellers\n\n"
+        env_msg+="• <u>بکاپ خودکار</u> = On/Off Automatic حذف کاربران تمام شده !\n\n"
+        env_msg+="• <u>گزینه های موجود :</u> = Information about resellers\n\n"
+        env_msg+="• <u>راهنما</u> = Information about options\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -109,23 +109,23 @@ fun_ajuda() {
         env_msg="<b>◈──────────────────◈</b>\n"
         env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
-        env_msg+="⚠️ <b>Available Commands</b>\n\n"
-        env_msg+="[<b>01</b>] /menu = Display menu\n"
-        env_msg+="[<b>02</b>] /info = Display information\n"
-        env_msg+="[<b>03</b>] /help = Information about options\n\n"
-        env_msg+="⚠️ <b>Available Options</b>\n\n"
+        env_msg+="⚠️ <b>دستورات موجود </b>\n\n"
+        env_msg+="[<b>01</b>] /menu = دستورات موجود \n"
+        env_msg+="[<b>02</b>] /info = نمایش اطلاعات\n"
+        env_msg+="[<b>03</b>] /راهنما = Information about options\n\n"
+        env_msg+="⚠️ <b>گزینه های موجود :</b>\n\n"
         env_msg+="• <u>ایجاد کاربر جدید </u> = Create ssh user\n\n"
         env_msg+="• <u>ایجاد کاربر تست</u> = Create ssh test\n\n"
-        env_msg+="• <u>حذف کاربر </u> = حذف کاربر  ssh user\n\n"
+        env_msg+="• <u>حذف کاربر </u> = \n\n"
         env_msg+="• <u>لیست کاربران</u> = لیست کاربرانrmation\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Display Online Users\n\n"
-        env_msg+="• <u>CHANGE PASSWORD</u> = Change ssh password\n\n"
-        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
-        env_msg+="• <u>CHANGE DATE</u> = Change date ssh\n\n"
-        env_msg+="• <u>EXPIRED</u> = حذف کاربر  expired ssh\n\n"
-        env_msg+="• <u>RESALE</u> = Manage Resellers\n\n"
-        env_msg+="• <u>REPORT</u> = Information about resellers\n\n"
-        env_msg+="• <u>HELP</u> = Information about options\n\n"
+        env_msg+="• <u>کاربران آنلاین</u> = Display کاربران آنلاین\n\n"
+        env_msg+="• <u>تغییر رمز کاربر</u> = Change ssh password\n\n"
+        env_msg+="• <u>مدیریت تعداد کاربر</u> = Change ssh limit\n\n"
+        env_msg+="• <u>تغییر زمان </u> = تغییر زمان  ssh\n\n"
+        env_msg+="• <u>حذف کاربران تمام شده !</u> = حذف کاربر  حذف کاربران تمام شده ! ssh\n\n"
+        env_msg+="• <u>نمایندگان</u> = Manage Resellers\n\n"
+        env_msg+="• <u>گزینه های موجود :</u> = Information about resellers\n\n"
+        env_msg+="• <u>راهنما</u> = Information about options\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -137,21 +137,21 @@ fun_ajuda() {
         env_msg="<b>◈──────────────────◈</b>\n"
         env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
-        env_msg+="⚠️ <b>Available Commands</b>\n\n"
-        env_msg+="[<b>01</b>] /menu = display menu\n"
-        env_msg+="[<b>02</b>] /info = Display information\n"
-        env_msg+="[<b>03</b>] /help = Information about options\n\n"
-        env_msg+="⚠️ <b>Available Options</b>\n\n"
+        env_msg+="⚠️ <b>دستورات موجود </b>\n\n"
+        env_msg+="[<b>01</b>] /menu = دستورات موجود \n"
+        env_msg+="[<b>02</b>] /info = نمایش اطلاعات\n"
+        env_msg+="[<b>03</b>] /راهنما = Information about options\n\n"
+        env_msg+="⚠️ <b>گزینه های موجود :</b>\n\n"
         env_msg+="• <u>ایجاد کاربر جدید </u> = Create ssh user\n\n"
         env_msg+="• <u>ایجاد کاربر تست</u> = Create ssh test\n\n"
         env_msg+="• <u>حذف کاربر </u> = حذف کاربر  ssh user\n\n"
         env_msg+="• <u>لیست کاربران</u> = لیست کاربرانrmation\n\n"
-        env_msg+="• <u>ONLINE USERS</u> = Display users online\n\n"
-        env_msg+="• <u>CHANGE PASSWORD</u> = Change ssh password\n\n"
-        env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
-        env_msg+="• <u>CHANGE DATE</u> = Change ssh date\n\n"
-        env_msg+="• <u>EXPIRED</u> = حذف کاربر  expired ssh\n\n"
-        env_msg+="• <u>HELP</u> = Information about options\n\n"
+        env_msg+="• <u>کاربران آنلاین</u> = Display users online\n\n"
+        env_msg+="• <u>تغییر رمز کاربر</u> = Change ssh password\n\n"
+        env_msg+="• <u>مدیریت تعداد کاربر</u> = Change ssh limit\n\n"
+        env_msg+="• <u>تغییر زمان </u> = Change ssh date\n\n"
+        env_msg+="• <u>حذف کاربران تمام شده !</u> = حذف کاربر  حذف کاربران تمام شده ! ssh\n\n"
+        env_msg+="• <u>راهنما</u> = Information about options\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
             --parse_mode html
@@ -302,7 +302,7 @@ alterar_senha() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "🔐 Change Password 🔐\n\nUsername:" \
+            --text "🔐 تغییر رمز کاربر 🔐\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -332,7 +332,7 @@ alterar_limite() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "👥 Change Limit 👥\n\nUsername:" \
+            --text "👥 مدیریت تعداد کاربر 👥\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -396,7 +396,7 @@ alterar_data() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "⏳ Change Date ⏳\n\nUsername:" \
+            --text "⏳ تغییر زمان  ⏳\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -824,7 +824,7 @@ otimizer() {
     res=$(expr $MEM1 - $MEM2)
     local sucess
     sucess="◈──────────────────◈\n"
-    sucess+="<b>SUCCESSFULLY OPTIMIZED!</b>\n"
+    sucess+="<b>SUCCESSFULLY بهینه سازی سیستمD!</b>\n"
     sucess+="◈──────────────────◈\n\n"
     sucess+="<i>Previous use</i> $MEM1%\n\n"
     sucess+="<b>Total Ram Memory</b> $ram1\n"
@@ -847,7 +847,7 @@ speed_test() {
     rm -rf $HOME/speed >/dev/null 2>&1
     ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
         --text "🚀 TESTING SERVER SPEED"
-    speedtest --share >speed
+    تست سرعت سرور --share >speed
     png=$(cat speed | sed -n '5 p' | awk -F : {'print $NF'})
     down=$(cat speed | sed -n '7 p' | awk -F : {'print $NF'})
     upl=$(cat speed | sed -n '9 p' | awk -F : {'print $NF'})
@@ -869,19 +869,19 @@ speed_test() {
     return 0
 }
 
-backup_users() {
+حذف کاربران تمام شده !_users() {
     [[ "${callback_query_from_id[$id]}" != "$id_admin" ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
             --text "$(echo -e 🚫 ACCESS DENIED 🚫)"
         return 0
     }
-    rm /root/backup.vps 1>/dev/null 2>/dev/null
+    rm /root/حذف کاربران تمام شده !.vps 1>/dev/null 2>/dev/null
     ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-        --text "♻️ CREATING USER BACKUP"
-    tar cvf /root/backup.vps /root/usuarios.db /etc/shadow /etc/passwd /etc/group /etc/gshadow /etc/bot /etc/VPSManager/senha 1>/dev/null 2>/dev/null
+        --text "♻️ CREATING USER حذف کاربران تمام شده !"
+    tar cvf /root/حذف کاربران تمام شده !.vps /root/usuarios.db /etc/shadow /etc/passwd /etc/group /etc/gshadow /etc/bot /etc/VPSManager/senha 1>/dev/null 2>/dev/null
     ShellBot.sendDocument --chat_id ${id_admin} \
-        --document "@/root/backup.vps" \
-        --caption "$(echo -e "♻️ USER BACKUP ♻️")"
+        --document "@/root/حذف کاربران تمام شده !.vps" \
+        --caption "$(echo -e "♻️ USER حذف کاربران تمام شده ! ♻️")"
     return 0
 }
 
@@ -1011,7 +1011,7 @@ fun_exp_user() {
             }
         done
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-            --text "⌛️ EXPIRED SSH USERS حذف کاربر D"
+            --text "⌛️ حذف کاربران تمام شده ! SSH USERS حذف کاربر D"
         return 0
     elif [[ "$(grep -wc "${callback_query_from_username}" $ativos)" != '0' ]]; then
         [[ "$(grep -wc ${callback_query_from_username} $suspensos)" != '0' ]] && {
@@ -1041,7 +1041,7 @@ fun_exp_user() {
             [[ -e "$dir_user/$user" ]] && rm $dir_user/$user
         done
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-            --text "⌛️ EXPIRED SSH USERS حذف کاربر D"
+            --text "⌛️ حذف کاربران تمام شده ! SSH USERS حذف کاربر D"
         return 0
     else
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1063,24 +1063,24 @@ relatorio_rev() {
         _cont_revt=$(grep -wc revenda $ativos)
         local msg
         msg="◈──────────────────◈\n"
-        msg+="<b>📊 REPORT | INFORMATION</b>\n"
+        msg+="<b>📊 گزینه های موجود : | INFORMATION</b>\n"
         msg+="◈──────────────────◈\n\n"
         msg+="<b>Total users:</b> $_tuser\n"
-        msg+="<b>Online users:</b> $_onli\n"
+        msg+="<b>کاربران آنلاین:</b> $_onli\n"
         msg+="<b>Active Resellers:</b> $_cont_rev\n"
         msg+="<b>Suspended Resellers:</b> $_cont_sus\n"
-        msg+="<b>Sub-Resales:</b> $_cont_sub\n\n"
+        msg+="<b>Sub-نمایندگانs:</b> $_cont_sub\n\n"
         msg+="<b>Username:</b> @${callback_query_from_username}\n"
         msg+="<b>ID:</b> <code>${callback_query_from_id}</code>\n"
         [[ $_cont_revt != '0' ]] && {
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "📊 CREATING REPORT!"
+                --text "📊 CREATING گزینه های موجود :!"
         } || {
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
                 --text "⚠️ NO DEALER FOUND !"
             return 0
         }
-        echo -e "RETAILER'S REPORT\n\nTotal: $_cont_revt  -  $(printf 'Data: %(%d/%m/%Y)T\n')\n◈──────────────────◈" >/tmp/Relatorio.txt
+        echo -e "RETAILER'S گزینه های موجود :\n\nTotal: $_cont_revt  -  $(printf 'Data: %(%d/%m/%Y)T\n')\n◈──────────────────◈" >/tmp/Relatorio.txt
         while read _revlist; do
             _nome_rev="$(echo $_revlist | awk '{print $2}')"
             _limite_rev="$(echo $_revlist | awk '{print $4}')"
@@ -1109,7 +1109,7 @@ relatorio_rev() {
                 total_on='0'
                 total_users='0'
             }
-            echo -e "\nSTATUS: $_status\nDEALER: @$_nome_rev\nLIMIT: $_limite_rev\nDAYS REMAINING: $_data_rev\nSSH CREATED: $total_users\nSSH ONLINE: $total_on\nSUB-RESALE: $_subrev\n\n◈──────────────────◈" >>/tmp/Relatorio.txt
+            echo -e "\nSTATUS: $_status\nDEALER: @$_nome_rev\nLIMIT: $_limite_rev\nDAYS REMAINING: $_data_rev\nSSH CREATED: $total_users\nSSH ONLINE: $total_on\nSUB-نمایندگان: $_subrev\n\n◈──────────────────◈" >>/tmp/Relatorio.txt
         done <<<"$(grep -w 'revenda' $ativos)"
         ShellBot.sendDocument --chat_id $id_admin \
             --document "@/tmp/Relatorio.txt" \
@@ -1130,7 +1130,7 @@ relatorio_rev() {
             _cont_disp=$(echo $_cont_limite - $_result | bc)
             local msg
             msg="◈──────────────────◈\n"
-            msg+="<b>📊 REPORT | INFORMATION</b>\n"
+            msg+="<b>📊 گزینه های موجود : | INFORMATION</b>\n"
             msg+="◈──────────────────◈\n\n"
             msg+="<b>Login Limit:</b> $_cont_limite\n"
             msg+="<b>Available Limit:</b> $_cont_disp\n"
@@ -1152,12 +1152,12 @@ relatorio_rev() {
         _cont_sup=$(fun_contsub | paste -s -d + | bc)
         local msg
         msg="◈──────────────────◈\n"
-        msg+="<b>📊 REPORT | INFORMATION</b>\n"
+        msg+="<b>📊 گزینه های موجود : | INFORMATION</b>\n"
         msg+="◈──────────────────◈\n\n"
         msg+="<b>Login Limit:</b> $_cont_limite\n"
         msg+="<b>Available Limit:</b> $_cont_disp\n"
-        msg+="<b>Total Sub-Resales:</b> $_cont_atv\n"
-        msg+="<b>Suspended Sub-Resales:</b> $_cont_sup\n"
+        msg+="<b>Total Sub-نمایندگانs:</b> $_cont_atv\n"
+        msg+="<b>Suspended Sub-نمایندگانs:</b> $_cont_sup\n"
         msg+="<b>Username:</b> @${callback_query_from_username}\n"
         msg+="<b>ID:</b> <code>${callback_query_from_id}</code>\n"
         echo -e "LIST OF SUB-SELLERS\n\nTotal: $_cont_atv  -  $(printf 'Data: %(%d/%m/%Y)T\n')\n◈──────────────────◈" >/tmp/Relatorio-${callback_query_from_username}.txt
@@ -1205,41 +1205,41 @@ relatorio_rev() {
 
 fun_backauto() {
     [[ "${callback_query_from_id[$id]}" = "$id_admin" ]] && {
-        [[ ! -d /etc/VPSManager/backups ]] && {
-            mkdir /etc/VPSManager/backups
-            [[ $(crontab -l | grep -c "userbackup") = '0' ]] && (
+        [[ ! -d /etc/VPSManager/حذف کاربران تمام شده !s ]] && {
+            mkdir /etc/VPSManager/حذف کاربران تمام شده !s
+            [[ $(crontab -l | grep -c "userحذف کاربران تمام شده !") = '0' ]] && (
                 crontab -l 2>/dev/null
-                echo "0 */6 * * * /bin/userbackup 1"
+                echo "0 */6 * * * /bin/userحذف کاربران تمام شده ! 1"
             ) | crontab -
             s
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "♻️ AUTOMATIC BACKUP ENABLED 🟢"
+                --text "♻️ AUTOMATIC حذف کاربران تمام شده ! ENABLED 🟢"
             return 0
         } || {
-            [[ $(crontab -l | grep -c "userbackup") != '0' ]] && crontab -l | grep -v 'userbackup' | crontab -
-            [[ -d /etc/VPSManager/backups ]] && rm -rf /etc/VPSManager/backups
+            [[ $(crontab -l | grep -c "userحذف کاربران تمام شده !") != '0' ]] && crontab -l | grep -v 'userحذف کاربران تمام شده !' | crontab -
+            [[ -d /etc/VPSManager/حذف کاربران تمام شده !s ]] && rm -rf /etc/VPSManager/حذف کاربران تمام شده !s
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "♻️ AUTOMATIC BACKUP DISABLED 🔴"
+                --text "♻️ AUTOMATIC حذف کاربران تمام شده ! DISABLED 🔴"
             return 0
         }
     }
 }
 
-backup_auto() {
+حذف کاربران تمام شده !_auto() {
     ShellBot.sendDocument --chat_id $id_admin \
-        --document "@/etc/VPSManager/backups/backup.vps" \
-        --caption "$(echo -e "♻️ AUTOMATIC BACKUP ♻️")"
-    rm /etc/VPSManager/backups/backup.vps
+        --document "@/etc/VPSManager/حذف کاربران تمام شده !s/حذف کاربران تمام شده !.vps" \
+        --caption "$(echo -e "♻️ AUTOMATIC حذف کاربران تمام شده ! ♻️")"
+    rm /etc/VPSManager/حذف کاربران تمام شده !s/حذف کاربران تمام شده !.vps
     return 0
 }
 
-restaure_backup() {
+restaure_حذف کاربران تمام شده !() {
     [[ ${message_from_id[$id]} == ${id_admin} ]] && {
-        [[ "${message_document_file_name}" != 'backup.vps' ]] && return 0
+        [[ "${message_document_file_name}" != 'حذف کاربران تمام شده !.vps' ]] && return 0
         local file_id
         file_id=${message_document_file_id[$id]}
         if [[ $file_id ]]; then
-            [[ -e /tmp/backup.vps ]] && rm /tmp/backup.vps
+            [[ -e /tmp/حذف کاربران تمام شده !.vps ]] && rm /tmp/حذف کاربران تمام شده !.vps
             [[ "$(ls /tmp | grep -c '.vps')" != '0' ]] && {
                 for i in $(ls /tmp | grep '.vps'); do
                     rm /tmp/$i
@@ -1247,7 +1247,7 @@ restaure_backup() {
             }
             ShellBot.getFile --file_id $file_id
             if ShellBot.downloadFile --file_path "${return[file_path]}" --dir "/tmp"; then
-                msg='<b>♻️ BACKUP FILE ♻️</b>\n\n<i>The uploaded file is a file\nuser backup!</i>'
+                msg='<b>♻️ حذف کاربران تمام شده ! FILE ♻️</b>\n\n<i>The uploaded file is a file\nuser حذف کاربران تمام شده !!</i>'
                 ShellBot.sendMessage --chat_id ${id_admin} \
                     --text "$(echo -e "$msg")" \
                     --parse_mode html
@@ -1264,7 +1264,7 @@ msg_bem_vindo() {
     msg="👋 Hello ${message_from_first_name[$id]} ! \n\n🤝 Welcome to\n"
     msg+="<b>====================================</b>\n<b>               🐉 DRAGON VPS MANAGER 🐉   </b>\n<b>====================================</b>\n\n"
     msg+="<b>To access the menu</b>\n<b>click [ /menu ]</b>\n\n"
-    msg+="<b>For information</b>\n<b>click [ /help ]</b>\n\n ✅ All Tutorials , Updates : @DRAGON_VPS_MANAGER"
+    msg+="<b>For information</b>\n<b>click [ /راهنما ]</b>\n\n ✅ All Tutorials , Updates : @DRAGON_VPS_MANAGER"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \
         --parse_mode html
@@ -1340,13 +1340,13 @@ criar_rev() {
         t_rev='revenda'
     } || {
         t_rev='subrevenda'
-        echo -e "SUBRESALE: $u_rev LIMIT_SUBRESALE: $l_rev" >>/etc/bot/revenda/${message_from_username}/${message_from_username}
+        echo -e "SUBنمایندگان: $u_rev LIMIT_SUBنمایندگان: $l_rev" >>/etc/bot/revenda/${message_from_username}/${message_from_username}
     }
     mkdir /etc/bot/revenda/"$u_rev"
     mkdir /etc/bot/revenda/"$u_rev"/usuarios
     touch /etc/bot/revenda/"$u_rev"/$u_rev
     echo -e "USER: $u_rev LIMITE: $l_rev DIAS: $d_rev TIPO: $t_rev" >>$ativos
-    echo -e "◈──────────────────◈\nLIMIT_RESALE: $l_rev\nDAYS_RESALE: $d_rev\n◈──────────────────◈\n" >/etc/bot/revenda/"$u_rev"/$u_rev
+    echo -e "◈──────────────────◈\nLIMIT_نمایندگان: $l_rev\nDAYS_نمایندگان: $d_rev\n◈──────────────────◈\n" >/etc/bot/revenda/"$u_rev"/$u_rev
     sed -i '$d' $file_rev
     echo -e "Due date: $(date "+%d/%m/%Y" -d "+$d_rev days")" >>$file_rev
 }
@@ -1477,7 +1477,7 @@ fun_lim_rev() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "♾ CHANGE RESALE LIMIT ♾\n\nInform his username [Ex: @Dragon_vps_manager]:" \
+            --text "♾ CHANGE نمایندگان LIMIT ♾\n\nInform his username [Ex: @Dragon_vps_manager]:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1523,7 +1523,7 @@ fun_dat_rev() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "📆 CHANGE RESALE DATE 📆\n\nInform his username [Ex: @Dragon_vps_manager]:" \
+            --text "📆 CHANGE نمایندگان DATE 📆\n\nInform his username [Ex: @Dragon_vps_manager]:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1719,7 +1719,7 @@ infouserbot() {
         fun_verif_limite_rev ${message_from_username}
         _cont_disp=$(echo $_cont_limite - $_result | bc)
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-            --text "$(echo -e "<b>NAME: </> ${message_from_first_name[$(ShellBot.ListUpdates)]}\n<b>USERNAME:</>" "@${message_from_username[$(ShellBot.ListUpdates)]:-null}")\n<b>ID:</> ${message_from_id[$(ShellBot.ListUpdates)]}\nACCESS: RESALE\n<b>TOTAL LIMIT:</b> $_cont_limite\n<b>REMAINING LIMIT:</b> $_cont_disp" \
+            --text "$(echo -e "<b>NAME: </> ${message_from_first_name[$(ShellBot.ListUpdates)]}\n<b>USERNAME:</>" "@${message_from_username[$(ShellBot.ListUpdates)]:-null}")\n<b>ID:</> ${message_from_id[$(ShellBot.ListUpdates)]}\nACCESS: نمایندگان\n<b>TOTAL LIMIT:</b> $_cont_limite\n<b>REMAINING LIMIT:</b> $_cont_disp" \
             --parse_mode html
         return 0
     } || {
@@ -1753,21 +1753,21 @@ menu1=''
 ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'ایجاد کاربر جدید ' --callback_data '_criaruser'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'ایجاد کاربر تست' --callback_data '_criarteste'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'حذف کاربر  USER' --callback_data '_deluser'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'CHANGE LIMIT' --callback_data '_altlimite'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'CHANGE DATE' --callback_data '_altdata'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text 'ONLINE USERS' --callback_data '_monitor'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'تغییر رمز کاربر' --callback_data '_altsenha'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'مدیریت تعداد کاربر' --callback_data '_altlimite'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'تغییر زمان ' --callback_data '_altdata'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text 'کاربران آنلاین' --callback_data '_monitor'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'INFO USERS' --callback_data '_verusers'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'EXPIRED' --callback_data '_expirados'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'حذف کاربران تمام شده !' --callback_data '_expirados'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'INFO VPS' --callback_data '_infovps'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'OTIMIZAR' --callback_data '_otimizar'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'FILES' --callback_data '_arqdown'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'RESALE' --callback_data '_opcoesrev'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'SPEEDTEST' --callback_data '_speedteste'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'BACKUP USERS' --callback_data '_backupusers'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text "AUTO BACKUP" --callback_data '_autobkp'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'REPORT' --callback_data '_relatorio'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'HELP' --callback_data '_ajuda'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'فایل ها' --callback_data '_arqdown'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'نمایندگان' --callback_data '_opcoesrev'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'تست سرعت سرور' --callback_data '_تست سرعت سرورe'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'حذف کاربران تمام شده ! USERS' --callback_data '_حذف کاربران تمام شده !users'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text "AUTO حذف کاربران تمام شده !" --callback_data '_autobkp'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'گزینه های موجود :' --callback_data '_relatorio'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'راهنما' --callback_data '_ajuda'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser
@@ -1779,9 +1779,9 @@ ShellBot.regHandleFunction --function monitor_ssh --callback_data _monitor
 ShellBot.regHandleFunction --function ver_users --callback_data _verusers
 ShellBot.regHandleFunction --function fun_exp_user --callback_data _expirados
 ShellBot.regHandleFunction --function otimizer --callback_data _otimizar
-ShellBot.regHandleFunction --function speed_test --callback_data _speedteste
+ShellBot.regHandleFunction --function speed_test --callback_data _تست سرعت سرورe
 ShellBot.regHandleFunction --function infovps --callback_data _infovps
-ShellBot.regHandleFunction --function backup_users --callback_data _backupusers
+ShellBot.regHandleFunction --function حذف کاربران تمام شده !_users --callback_data _حذف کاربران تمام شده !users
 ShellBot.regHandleFunction --function fun_backauto --callback_data _autobkp
 ShellBot.regHandleFunction --function relatorio_rev --callback_data _relatorio
 ShellBot.regHandleFunction --function fun_ajuda --callback_data _ajuda
@@ -1795,15 +1795,15 @@ menu2=''
 ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'ایجاد کاربر جدید ' --callback_data '_criaruser2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'ایجاد کاربر تست' --callback_data '_criarteste2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'حذف کاربر  USER' --callback_data '_deluser2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'ONLINE USERS' --callback_data '_monitor2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'کاربران آنلاین' --callback_data '_monitor2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'مدیریت تعداد کاربر' --callback_data '_altlimite2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'لیست کاربران' --callback_data '_verusers2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'EXPIRED' --callback_data '_expirados2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'CHANGE DATE' --callback_data '_altdata2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'RESALE' --callback_data '_opcoesrev2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'REPORT' --callback_data '_relatorio2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'HELP' --callback_data '_ajuda2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'تغییر رمز کاربر' --callback_data '_altsenha2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'حذف کاربران تمام شده !' --callback_data '_expirados2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'تغییر زمان ' --callback_data '_altdata2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'نمایندگان' --callback_data '_opcoesrev2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'گزینه های موجود :' --callback_data '_relatorio2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 6 --text 'راهنما' --callback_data '_ajuda2'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser2
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste2
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser2
@@ -1825,13 +1825,13 @@ menu3=''
 ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'ایجاد کاربر جدید ' --callback_data '_criaruser3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'ایجاد کاربر تست' --callback_data '_criarteste3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'حذف کاربر  USER' --callback_data '_deluser3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'ONLINE USERS' --callback_data '_monitor3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'کاربران آنلاین' --callback_data '_monitor3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'مدیریت تعداد کاربر' --callback_data '_altlimite3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'لیست کاربران' --callback_data '_verusers3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRED' --callback_data '_expirados3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'CHANGE DATE' --callback_data '_altdata3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'HELP' --callback_data '_ajuda3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'تغییر رمز کاربر' --callback_data '_altsenha3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'حذف کاربران تمام شده !' --callback_data '_expirados3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'تغییر زمان ' --callback_data '_altdata3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'راهنما' --callback_data '_ajuda3'
 ShellBot.regHandleFunction --function fun_adduser --callback_data _criaruser3
 ShellBot.regHandleFunction --function fun_add_teste --callback_data _criarteste3
 ShellBot.regHandleFunction --function fun_deluser --callback_data _deluser3
@@ -1848,12 +1848,12 @@ keyboard3="$(ShellBot.InlineKeyboardMarkup -b 'menu3')"
 #LISTA MENU OPCOES REVENDA
 unset menu4
 menu4=''
-ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'ADD RESALE' --callback_data '_addrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'حذف کاربر  RESALE' --callback_data '_delrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CHANGE RESALE LIMIT' --callback_data '_limrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CHANGE RESALE DATE' --callback_data '_datrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LIST RESALE' --callback_data '_listrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPEND RESALE' --callback_data '_susprevendas'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'ADD نمایندگان' --callback_data '_addrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'حذف کاربر  نمایندگان' --callback_data '_delrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CHANGE نمایندگان LIMIT' --callback_data '_limrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CHANGE نمایندگان DATE' --callback_data '_datrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LIST نمایندگان' --callback_data '_listrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 6 --text 'SUSPEND نمایندگان' --callback_data '_susprevendas'
 ShellBot.regHandleFunction --function fun_add_revenda --callback_data _addrev
 ShellBot.regHandleFunction --function fun_del_rev --callback_data _delrev
 ShellBot.regHandleFunction --function fun_lim_rev --callback_data _limrev
@@ -1864,8 +1864,8 @@ unset keyboard4
 keyboard4="$(ShellBot.InlineKeyboardMarkup -b 'menu4')"
 
 while :; do
-    [[ -e "/etc/VPSManager/backups/backup.vps" ]] && {
-        backup_auto
+    [[ -e "/etc/VPSManager/حذف کاربران تمام شده !s/حذف کاربران تمام شده !.vps" ]] && {
+        حذف کاربران تمام شده !_auto
     }
     #Obtem as atualizações
     ShellBot.getUpdates --limit 100 --offset $(ShellBot.OffsetNext) --timeout 35
@@ -1876,7 +1876,7 @@ while :; do
             ShellBot.watchHandle --callback_data ${callback_query_data[$id]}
             # Requisições somente no privado.
             [[ ${message_chat_type[$id]} != 'private' ]] && continue
-            [[ ${message_text[$id]} ]] || restaure_backup
+            [[ ${message_text[$id]} ]] || restaure_حذف کاربران تمام شده !
             CAD_ARQ=/tmp/cad.${message_from_id[$id]}
             if [[ ${message_entities_type[$id]} == bot_command ]]; then
                 #Verifica se a mensagem enviada pelo usuário é um comando válido.
@@ -1888,7 +1888,7 @@ while :; do
                     [[ "${comando[0]}" = "/start" ]] && msg_bem_vindo
                     [[ "${comando[0]}" = "/menu" ]] && fun_menu
                     [[ "${comando[0]}" = "/info" ]] && infouserbot
-                    [[ "${comando[0]}" = "/help" || "${comando[0]}" = "/ajuda" ]] && fun_ajuda
+                    [[ "${comando[0]}" = "/راهنما" || "${comando[0]}" = "/ajuda" ]] && fun_ajuda
                     [[ "${comando[0]}" = "/bot" || "${comando[0]}" = "/sobre" ]] && sobremim
                     ;;
                 esac
@@ -2003,7 +2003,7 @@ while :; do
                     }
                     [[ "$(ls /etc/bot/arquivos | wc -l)" != '0' ]] && {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text '📥 AVAILABLE FILES 📥\n\nDo you want to download? Yes or no?:' \
+                            --text '📥 AVAILABLE فایل ها 📥\n\nDo you want to download? Yes or no?:' \
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
@@ -2012,7 +2012,7 @@ while :; do
                         break
                     }
                     ;;
-                '📥 AVAILABLE FILES 📥\n\nDo you want to download? Yes or no?:')
+                '📥 AVAILABLE فایل ها 📥\n\nDo you want to download? Yes or no?:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     [[ ${message_text[$id]} != ?(+|-)+([A-Za-z]) ]] && {
@@ -2026,7 +2026,7 @@ while :; do
                     }
                     [[ "${message_text[$id]}" = @(Sim|sim|SIM) ]] && {
                         msg_cli="◈──────────────────◈\n"
-                        msg_cli+="<b>PRE-CONFIGURED FILES </b>❗\n"
+                        msg_cli+="<b>PRE-CONFIGURED فایل ها </b>❗\n"
                         msg_cli+="◈──────────────────◈\n\n"
                         for _file in $(ls /etc/bot/arquivos); do
                             i=$(($i + 1))
@@ -2071,7 +2071,7 @@ while :; do
                         --text "✅ *Successfully حذف کاربر d.* 🚮" \
                         --parse_mode markdown
                     ;;
-                '🔐 Change Password 🔐\n\nUsername:')
+                '🔐 تغییر رمز کاربر 🔐\n\nUsername:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     fun_verif_user ${message_text[$id]}
@@ -2099,7 +2099,7 @@ while :; do
                         --parse_mode html
                     rm /tmp/name-s >/dev/null 2>&1
                     ;;
-                '👥 Change Limit 👥\n\nUsername:')
+                '👥 مدیریت تعداد کاربر 👥\n\nUsername:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     echo $_erro segundo
@@ -2127,7 +2127,7 @@ while :; do
                         --parse_mode html
                     rm /tmp/name-l >/dev/null 2>&1
                     ;;
-                '⏳ Change Date ⏳\n\nUsername:')
+                '⏳ تغییر زمان  ⏳\n\nUsername:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     fun_verif_user ${message_text[$id]}
@@ -2162,12 +2162,12 @@ while :; do
                     }
                     if [[ "${message_text[$id]}" = '1' ]]; then
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "📤 HOST FILES 📤\n\nsend me the file:" \
+                            --text "📤 HOST فایل ها 📤\n\nsend me the file:" \
                             --reply_markup "$(ShellBot.ForceReply)"
                     elif [[ "${message_text[$id]}" = '2' ]]; then
                         [[ $(ls /etc/bot/arquivos | wc -l) != '0' ]] && {
                             msg_cli1="◈──────────────────◈\n"
-                            msg_cli1+="🚀<b> HOSTED FILES </b>\n"
+                            msg_cli1+="🚀<b> HOSTED فایل ها </b>\n"
                             msg_cli1+="◈──────────────────◈\n\n"
                             for _file in $(ls /etc/bot/arquivos); do
                                 i=$(($i + 1))
@@ -2181,7 +2181,7 @@ while :; do
                                 --reply_markup "$(ShellBot.ForceReply)"
                         } || {
                             ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                                --text "$(echo -e "There are no files available")" \
+                                --text "$(echo -e "There are no فایل ها available")" \
                                 --parse_mode html
                             break
                         }
@@ -2227,7 +2227,7 @@ while :; do
                         }
                     }
                     ;;
-                '📤 HOST FILES 📤\n\nsend me the file:')
+                '📤 HOST فایل ها 📤\n\nsend me the file:')
                     if [ "${update_id[$id]}" ]; then
                         # Monitora o envio de arquivos
                         [[ ${message_document_file_id[$id]} ]] && file_id=${message_document_file_id[$id]} && download_file=1
@@ -2266,12 +2266,12 @@ while :; do
                     [[ "$Resp" = @(Sim|sim|SIM) ]] && {
                         filebkp=$(ls /tmp | grep '.vps')
                         [[ -e /tmp/$filebkp ]] && {
-                            mv /tmp/$filebkp /backup.vps
+                            mv /tmp/$filebkp /حذف کاربران تمام شده !.vps
                             cd /
-                            tar -xvf backup.vps
-                            rm /backup.vps
+                            tar -xvf حذف کاربران تمام شده !.vps
+                            rm /حذف کاربران تمام شده !.vps
                             ShellBot.sendMessage --chat_id ${id_admin} \
-                                --text "$(echo -e "✅ Backup restored\nsuccessfully!")" \
+                                --text "$(echo -e "✅ حذف کاربران تمام شده ! restored\nsuccessfully!")" \
                                 --parse_mode html
                             break
                         }
@@ -2361,7 +2361,7 @@ while :; do
                     break
                     ;;
                     # ALTERAR LIMITE
-                '♾ CHANGE RESALE LIMIT ♾\n\nInform his username [Ex: @Dragon_vps_manager]:')
+                '♾ CHANGE نمایندگان LIMIT ♾\n\nInform his username [Ex: @Dragon_vps_manager]:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     echo -e "Dealer: ${message_text[$id]}" >$CAD_ARQ
@@ -2434,11 +2434,11 @@ while :; do
                     echo -e "Limite: ${message_text[$id]}" >>$CAD_ARQ
                     lim_rev $CAD_ARQ
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "◈──────────────────◈\n<b>✅ CHANGED RESALE LIMIT !</b> !\n◈──────────────────◈\n\n$(<$CAD_ARQ)")" \
+                        --text "$(echo -e "◈──────────────────◈\n<b>✅ CHANGED نمایندگان LIMIT !</b> !\n◈──────────────────◈\n\n$(<$CAD_ARQ)")" \
                         --parse_mode html
                     # ALTERAR DATA
                     ;;
-                '📆 CHANGE RESALE DATE 📆\n\nInform his username [Ex: @Dragon_vps_manager]:')
+                '📆 CHANGE نمایندگان DATE 📆\n\nInform his username [Ex: @Dragon_vps_manager]:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     _VAR1=$(echo -e ${message_text[$id]} | awk -F '@' {'print $2'})
@@ -2489,7 +2489,7 @@ while :; do
                     dat_rev $CAD_ARQ
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "◈──────────────────◈\n<b>✅ CHANGED RESALE DATE!</b> !\n◈──────────────────◈\n\n$(<$CAD_ARQ)")" \
+                        --text "$(echo -e "◈──────────────────◈\n<b>✅ CHANGED نمایندگان DATE!</b> !\n◈──────────────────◈\n\n$(<$CAD_ARQ)")" \
                         --parse_mode html
                     ;;
                     # SUSPENDER REVENDEDOR
