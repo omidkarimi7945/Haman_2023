@@ -16,9 +16,9 @@ fun_menu() {
     [[ "${message_from_id[$id]}" == "$id_admin" ]] && {
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
-        env_msg+="<b>🐉 DRAGON VPS MANAGER BOT 🐉</b>\n"
+        env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
-        env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
+        env_msg+="⚠️ <i>لطفا یک دکمه را انتخاب کنید </i>\n\n"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -32,9 +32,9 @@ fun_menu() {
     if [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'revenda')" != '0' ]]; then
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
-        env_msg+="<b>🐉 DRAGON VPS MANAGER BOT 🐉</b>\n"
+        env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
-        env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
+        env_msg+="⚠️ <i>لطفا یک دکمه را انتخاب کنید </i>\n\n"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -42,9 +42,9 @@ fun_menu() {
     elif [[ "$(grep -w "${message_from_username}" $ativos | grep -wc 'subrevenda')" != '0' ]]; then
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
-        env_msg+="<b>🐉 DRAGON VPS MANAGER BOT 🐉</b>\n"
+        env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
-        env_msg+="⚠️ <i>SELECT AN OPTION BELOW!</i>\n\n"
+        env_msg+="⚠️ <i>لطفا یک دکمه را انتخاب کنید </i>\n\n"
 	ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
             --reply_markup "$keyboard1" \
             --parse_mode html
@@ -67,23 +67,23 @@ fun_ajuda() {
     if [[ "$id_chatuser" = "$id_admin" ]]; then
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
-        env_msg+="<b>🐉 DRAGON VPS MANAGER BOT 🐉</b>\n"
+        env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
         env_msg+="⚠️ <b>Available Commands</b>\n\n"
         env_msg+="[<b>01</b>] /menu = Display menu\n"
         env_msg+="[<b>02</b>] /info = Display information\n"
         env_msg+="[<b>03</b>] /help = Information about options\n\n"
         env_msg+="⚠️ <b>Available Options</b>\n\n"
-        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
-        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
-        env_msg+="• <u>REMOVE</u> = Remove ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User Information\n\n"
+        env_msg+="• <u>ایجاد کاربر جدید </u> = Create ssh user\n\n"
+        env_msg+="• <u>ایجاد کاربر تست</u> = Create ssh test\n\n"
+        env_msg+="• <u>حذف کاربر </u> = حذف کاربر  ssh user\n\n"
+        env_msg+="• <u>لیست کاربران</u> = لیست کاربرانrmation\n\n"
         env_msg+="• <u>ONLINE USERS</u> = Display Online Users\n\n"
         env_msg+="• <u>VPS INFO</u> = Server Information\n\n"
         env_msg+="• <u>CHANGE PASSWORD</u> = Change ssh password\n\n"
         env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
         env_msg+="• <u>CHANGE DATE</u> = Change date ssh\n\n"
-        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>EXPIRED</u> = حذف کاربر  expired ssh\n\n"
         env_msg+="• <u>BACKUP</u> = Create ssh Backup and resellers\n\n"
         env_msg+="• <u>OPTIMIZE</u> = Clear cache - ram\n\n"
         env_msg+="• <u>SPEEDTEST</u> = Connection test\n\n"
@@ -107,22 +107,22 @@ fun_ajuda() {
     elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'revenda' ]]; then
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
-        env_msg+="<b>🐉 DRAGON VPS MANAGER BOT 🐉</b>\n"
+        env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
         env_msg+="⚠️ <b>Available Commands</b>\n\n"
         env_msg+="[<b>01</b>] /menu = Display menu\n"
         env_msg+="[<b>02</b>] /info = Display information\n"
         env_msg+="[<b>03</b>] /help = Information about options\n\n"
         env_msg+="⚠️ <b>Available Options</b>\n\n"
-        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
-        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
-        env_msg+="• <u>REMOVE</u> = Remove ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User Information\n\n"
+        env_msg+="• <u>ایجاد کاربر جدید </u> = Create ssh user\n\n"
+        env_msg+="• <u>ایجاد کاربر تست</u> = Create ssh test\n\n"
+        env_msg+="• <u>حذف کاربر </u> = حذف کاربر  ssh user\n\n"
+        env_msg+="• <u>لیست کاربران</u> = لیست کاربرانrmation\n\n"
         env_msg+="• <u>ONLINE USERS</u> = Display Online Users\n\n"
         env_msg+="• <u>CHANGE PASSWORD</u> = Change ssh password\n\n"
         env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
         env_msg+="• <u>CHANGE DATE</u> = Change date ssh\n\n"
-        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>EXPIRED</u> = حذف کاربر  expired ssh\n\n"
         env_msg+="• <u>RESALE</u> = Manage Resellers\n\n"
         env_msg+="• <u>REPORT</u> = Information about resellers\n\n"
         env_msg+="• <u>HELP</u> = Information about options\n\n"
@@ -135,22 +135,22 @@ fun_ajuda() {
     elif [[ "$(grep -w "$id_name" $ativos | awk '{print $NF}')" == 'subrevenda' ]]; then
         local env_msg
         env_msg="<b>◈──────────────────◈</b>\n"
-        env_msg+="<b>🐉 DRAGON VPS MANAGER BOT 🐉</b>\n"
+        env_msg+="<b>🐉 Haman SSh 🐉</b>\n"
         env_msg+="<b>◈──────────────────◈</b>\n\n"
         env_msg+="⚠️ <b>Available Commands</b>\n\n"
         env_msg+="[<b>01</b>] /menu = display menu\n"
         env_msg+="[<b>02</b>] /info = Display information\n"
         env_msg+="[<b>03</b>] /help = Information about options\n\n"
         env_msg+="⚠️ <b>Available Options</b>\n\n"
-        env_msg+="• <u>CREATE USER</u> = Create ssh user\n\n"
-        env_msg+="• <u>CREATE TEST</u> = Create ssh test\n\n"
-        env_msg+="• <u>REMOVE</u> = Remove ssh user\n\n"
-        env_msg+="• <u>USER INFO</u> = User information\n\n"
+        env_msg+="• <u>ایجاد کاربر جدید </u> = Create ssh user\n\n"
+        env_msg+="• <u>ایجاد کاربر تست</u> = Create ssh test\n\n"
+        env_msg+="• <u>حذف کاربر </u> = حذف کاربر  ssh user\n\n"
+        env_msg+="• <u>لیست کاربران</u> = لیست کاربرانrmation\n\n"
         env_msg+="• <u>ONLINE USERS</u> = Display users online\n\n"
         env_msg+="• <u>CHANGE PASSWORD</u> = Change ssh password\n\n"
         env_msg+="• <u>CHANGE LIMIT</u> = Change ssh limit\n\n"
         env_msg+="• <u>CHANGE DATE</u> = Change ssh date\n\n"
-        env_msg+="• <u>EXPIRED</u> = Remove expired ssh\n\n"
+        env_msg+="• <u>EXPIRED</u> = حذف کاربر  expired ssh\n\n"
         env_msg+="• <u>HELP</u> = Information about options\n\n"
         ShellBot.sendMessage --chat_id $id_chatuser \
             --text "$(echo -e $env_msg)" \
@@ -184,7 +184,7 @@ fun_adduser() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "👤 CREATE USER 👤\n\nUsername:" \
+            --text "👤 ایجاد کاربر جدید  👤\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -243,7 +243,7 @@ fun_deluser() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "🗑 REMOVE USER 🗑\n\nUsername:" \
+            --text "🗑 حذف کاربر  USER 🗑\n\nUsername:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -440,7 +440,7 @@ ver_users() {
         arq_info=/tmp/$(echo $RANDOM)
         local info_users
         info_users='◈──────────────────◈\n'
-        info_users+='<b>USER INFORMATION</b>\n'
+        info_users+='<b>لیست کاربرانRMATION</b>\n'
         info_users+='◈──────────────────◈\n\n'
         info_users+='⚠️ Displays in the format below:\n\n'
         info_users+='<code>USER PASSWORD DATE LIMIT</code>\n'
@@ -492,7 +492,7 @@ ver_users() {
         arq_info=/tmp/$(echo $RANDOM)
         local info_users
         info_users='◈──────────────────◈\n'
-        info_users+='<b>USER INFORMATION</b>\n'
+        info_users+='<b>لیست کاربرانRMATION</b>\n'
         info_users+='◈──────────────────◈\n\n'
         info_users+='⚠️ Displays in the format below:\n\n'
         info_users+='<code>USER PASSWORD DATE LIMIT</code>\n'
@@ -907,7 +907,7 @@ fun_add_teste() {
         return 0
     elif [[ "${callback_query_from_id[$id]}" == "$id_admin" ]]; then
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "👤 CREATE TEST 👤\n\nhow many hours should it last EX: 1:" \
+            --text "👤 ایجاد کاربر تست 👤\n\nhow many hours should it last EX: 1:" \
             --reply_markup "$(ShellBot.ForceReply)"
     elif [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]]; then
         _limTotal=$(grep -w "${callback_query_from_username}" $ativos | awk '{print $4}')
@@ -919,7 +919,7 @@ fun_add_teste() {
             return 0
         } || {
             ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-                --text "👤 CREATE TEST 👤\n\nhow many hours should it last EX: 1:" \
+                --text "👤 ایجاد کاربر تست 👤\n\nhow many hours should it last EX: 1:" \
                 --reply_markup "$(ShellBot.ForceReply)"
         }
     else
@@ -1011,7 +1011,7 @@ fun_exp_user() {
             }
         done
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-            --text "⌛️ EXPIRED SSH USERS REMOVED"
+            --text "⌛️ EXPIRED SSH USERS حذف کاربر D"
         return 0
     elif [[ "$(grep -wc "${callback_query_from_username}" $ativos)" != '0' ]]; then
         [[ "$(grep -wc ${callback_query_from_username} $suspensos)" != '0' ]] && {
@@ -1041,7 +1041,7 @@ fun_exp_user() {
             [[ -e "$dir_user/$user" ]] && rm $dir_user/$user
         done
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-            --text "⌛️ EXPIRED SSH USERS REMOVED"
+            --text "⌛️ EXPIRED SSH USERS حذف کاربر D"
         return 0
     else
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1359,7 +1359,7 @@ fun_del_rev() {
     }
     [[ "${callback_query_from_id[$id]}" == "$id_admin" ]] || [[ "$(grep -wc ${callback_query_from_username} $ativos)" != '0' ]] && {
         ShellBot.sendMessage --chat_id ${callback_query_message_chat_id[$id]} \
-            --text "🗑 REMOVE DEALER 🗑\n\nInform his username [Ex: @Dragon_vps_manager]:" \
+            --text "🗑 حذف کاربر  DEALER 🗑\n\nInform his username [Ex: @Dragon_vps_manager]:" \
             --reply_markup "$(ShellBot.ForceReply)"
     } || {
         ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
@@ -1416,7 +1416,7 @@ del_rev() {
                 sed -i "/\b$_cli_rev\b/d" $suspensos
             }
             ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                --text "$(echo -e "SUCCESSFULLY REMOVED")" \
+                --text "$(echo -e "SUCCESSFULLY حذف کاربر D")" \
                 --parse_mode html
             return 0
         } || {
@@ -1458,7 +1458,7 @@ del_rev() {
                 sed -i "/\b$_cli_rev\b/d" /etc/bot/revenda/${message_from_username}/${message_from_username}
             }
             ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
-                --text "$(echo -e "SUCCESSFULLY REMOVED")" \
+                --text "$(echo -e "SUCCESSFULLY حذف کاربر D")" \
                 --parse_mode html
             return 0
         } || {
@@ -1750,9 +1750,9 @@ fun_menurevenda() {
 # LISTA MENU ADMIN
 unset menu1
 menu1=''
-ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'CREATE USER' --callback_data '_criaruser'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'CREATE TEST' --callback_data '_criarteste'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'REMOVE USER' --callback_data '_deluser'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'ایجاد کاربر جدید ' --callback_data '_criaruser'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'ایجاد کاربر تست' --callback_data '_criarteste'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'حذف کاربر  USER' --callback_data '_deluser'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'CHANGE LIMIT' --callback_data '_altlimite'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'CHANGE DATE' --callback_data '_altdata'
@@ -1792,12 +1792,12 @@ keyboard1="$(ShellBot.InlineKeyboardMarkup -b 'menu1')"
 # LISTA MENU REVENDEDOR
 unset menu2
 menu2=''
-ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREATE USER' --callback_data '_criaruser2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'CREATE TEST' --callback_data '_criarteste2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'REMOVE USER' --callback_data '_deluser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'ایجاد کاربر جدید ' --callback_data '_criaruser2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 1 --text 'ایجاد کاربر تست' --callback_data '_criarteste2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'حذف کاربر  USER' --callback_data '_deluser2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 2 --text 'ONLINE USERS' --callback_data '_monitor2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite2'
-ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'USER INFO' --callback_data '_verusers2'
+ShellBot.InlineKeyboardButton --button 'menu2' --line 3 --text 'لیست کاربران' --callback_data '_verusers2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 4 --text 'EXPIRED' --callback_data '_expirados2'
 ShellBot.InlineKeyboardButton --button 'menu2' --line 5 --text 'CHANGE DATE' --callback_data '_altdata2'
@@ -1822,12 +1822,12 @@ keyboard2="$(ShellBot.InlineKeyboardMarkup -b 'menu2')"
 #LISTA MUNU SUB REVENDEDOR
 unset menu3
 menu3=''
-ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CREATE USER' --callback_data '_criaruser3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'CREATE TEST' --callback_data '_criarteste3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'REMOVE USER' --callback_data '_deluser3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'ایجاد کاربر جدید ' --callback_data '_criaruser3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 1 --text 'ایجاد کاربر تست' --callback_data '_criarteste3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'حذف کاربر  USER' --callback_data '_deluser3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 2 --text 'ONLINE USERS' --callback_data '_monitor3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'CHANGE LIMIT' --callback_data '_altlimite3'
-ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'USER INFO' --callback_data '_verusers3'
+ShellBot.InlineKeyboardButton --button 'menu3' --line 3 --text 'لیست کاربران' --callback_data '_verusers3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'CHANGE PASSWORD' --callback_data '_altsenha3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 4 --text 'EXPIRED' --callback_data '_expirados3'
 ShellBot.InlineKeyboardButton --button 'menu3' --line 5 --text 'CHANGE DATE' --callback_data '_altdata3'
@@ -1849,7 +1849,7 @@ keyboard3="$(ShellBot.InlineKeyboardMarkup -b 'menu3')"
 unset menu4
 menu4=''
 ShellBot.InlineKeyboardButton --button 'menu4' --line 1 --text 'ADD RESALE' --callback_data '_addrev'
-ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'REMOVE RESALE' --callback_data '_delrev'
+ShellBot.InlineKeyboardButton --button 'menu4' --line 2 --text 'حذف کاربر  RESALE' --callback_data '_delrev'
 ShellBot.InlineKeyboardButton --button 'menu4' --line 3 --text 'CHANGE RESALE LIMIT' --callback_data '_limrev'
 ShellBot.InlineKeyboardButton --button 'menu4' --line 4 --text 'CHANGE RESALE DATE' --callback_data '_datrev'
 ShellBot.InlineKeyboardButton --button 'menu4' --line 5 --text 'LIST RESALE' --callback_data '_listrev'
@@ -1896,7 +1896,7 @@ while :; do
             if [[ ${message_reply_to_message_message_id[$id]} ]]; then
                 # Analisa a interface de resposta.
                 case ${message_reply_to_message_text[$id]} in
-                '👤 CREATE USER 👤\n\nUsername:')
+                '👤 ایجاد کاربر جدید  👤\n\nUsername:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     [[ "$(awk -F : '$3 >= 1000 { print $1 }' /etc/passwd | grep -w ${message_text[$id]} | wc -l)" != '0' ]] && {
@@ -2062,13 +2062,13 @@ while :; do
                     >$CAD_ARQ
                     break
                     ;;
-                '🗑 REMOVE USER 🗑\n\nUsername:')
+                '🗑 حذف کاربر  USER 🗑\n\nUsername:')
                     verifica_acesso
                     [[ "$_erro" == '1' ]] && break
                     fun_del_user ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "✅ *Successfully removed.* 🚮" \
+                        --text "✅ *Successfully حذف کاربر d.* 🚮" \
                         --parse_mode markdown
                     ;;
                 '🔐 Change Password 🔐\n\nUsername:')
@@ -2280,7 +2280,7 @@ while :; do
                     ;;
                     # FUNCOES DE GESTAO REVENDA
                     #
-                    # Adicionar, remover, limite, data, suspencao, relatorio
+                    # Adicionar, حذف کاربر r, limite, data, suspencao, relatorio
                     #
                 '👥 ADD DEALER 👥\n\nEnter the name:')
                     verifica_acesso
@@ -2347,8 +2347,8 @@ while :; do
                         --text "✅ successfully created. ✅\n\n$(<$CAD_ARQ)\n\nBOT: @${message_reply_to_message_from_username}" \
                         --parse_mode html
                     ;;
-                    # REMOVE REVENDEDOR
-                '🗑 REMOVE DEALER 🗑\n\nInform his username [Ex: @Dragon_vps_manager]:')
+                    # حذف کاربر  REVENDEDOR
+                '🗑 حذف کاربر  DEALER 🗑\n\nInform his username [Ex: @Dragon_vps_manager]:')
                     echo -e "${message_text[$id]}" >$CAD_ARQ
                     _Var=$(sed -n '1 p' $CAD_ARQ | awk -F '@' {'print $2'})
                     [[ -z $_Var ]] && {
@@ -2504,7 +2504,7 @@ while :; do
                     susp_rev $_VAR1
                     break
                     ;;
-                '👤 CREATE TEST 👤\n\nhow many hours should it last EX: 1:')
+                '👤 ایجاد کاربر تست 👤\n\nhow many hours should it last EX: 1:')
                     verifica_acesso
                     echo $_erro
                     [[ "$_erro" == '1' ]] && break
