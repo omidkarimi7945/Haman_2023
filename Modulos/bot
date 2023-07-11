@@ -1758,7 +1758,7 @@ ShellBot.InlineKeyboardButton --button 'menu1' --line 5 --text 'تغییر مح�
 ShellBot.InlineKeyboardButton --button 'menu1' --line 6 --text 'افزایش یا کاهش زمان' --callback_data '_altdata'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 7 --text 'کاربران انلاین ' --callback_data '_monitor'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 8 --text 'لیست کاربران' --callback_data '_verusers'
-ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text 'حذف کاربران منقظی' --callback_data '_expirados'
+ShellBot.InlineKeyboardButton --button 'menu1' --line 9 --text ' حذف کاربران منقظی' --callback_data '_expirados'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 1 --text 'درباره سرور' --callback_data '_infovps'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 2 --text 'بهینه سازی' --callback_data '_otimizar'
 ShellBot.InlineKeyboardButton --button 'menu1' --line 3 --text 'فایل ها' --callback_data '_arqdown'
