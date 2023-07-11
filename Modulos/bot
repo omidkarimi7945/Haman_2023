@@ -1213,13 +1213,13 @@ fun_backauto() {
             ) | crontab -
             s
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "♻️ AUTOMATIC BACKUP ENABLED 🟢"
+                --text "♻️ بکاپ خودکار روشن شد !هر ۶ ساعت یه بکاپ برات میفرستم 🟢"
             return 0
         } || {
             [[ $(crontab -l | grep -c "userbackup") != '0' ]] && crontab -l | grep -v 'userbackup' | crontab -
             [[ -d /etc/VPSManager/backups ]] && rm -rf /etc/VPSManager/backups
             ShellBot.answerCallbackQuery --callback_query_id ${callback_query_id[$id]} \
-                --text "♻️ AUTOMATIC BACKUP DISABLED 🔴"
+                --text "♻️ بکاپ خودکار خاموش شد !مواظب باش 🔴"
             return 0
         }
     }
@@ -2007,7 +2007,7 @@ while :; do
                             --reply_markup "$(ShellBot.ForceReply)"
                     } || {
                         ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                            --text "<b>====================================</b>\n<b>               ❤️ HAMAN Vps MANAGER⭐️  </b>\n<b>====================================</b>\n\n<b>◈─────⪧ IMPORTANT ⪦──────◈</b>\n\n◈⪧ 🚫 NO SPAM\n◈⪧ ⚠️ NO DDOS\n◈⪧ 🎭 NO Hacking\n◈⪧ ⛔️ NO Carding\n◈⪧ 🙅‍♂️ NO Torrent\n◈⪧ ❌ NO MultiLogin\n◈⪧ 🤷‍♂️ NO Illegal Activities\n\n<b>◈─────⪧ SSH ACCOUNT ⪦─────◈</b>\n\n<b>◈ Host / IP       :⪧</b>  <code>$(cat /etc/IP)</code>\n<b>◈ Username    :⪧</b>  <code>$(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)</code>\n<b>◈ Password     :⪧</b>  <code>$(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)</code>\n<b>◈ Login Limit   :⪧</b> $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\n<b>◈ Expire Date  :⪧</b> $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n<b>◈──────⪧ PORTS ⪦ ───────◈</b>\n\n◈ SSH            ⌁   22\n◈ SSL             ⌁  443\n◈ Squid         ⌁  8080\n◈ DropBear ⌁  80\n◈ BadVPN    ⌁  7300\n\n<b>◈───⪧ONLINE USER COUNT⪦────◈ </b>\n\nhttp://$(cat /etc/IP):8888/server/online\n\n<b>◈──────────────────◈</b>\n\n<b>©️ 🐉  DRAGON VPS MANAGER SCRIPT  🐉</b>\n<b>◈──────────────────◈</b>" \
+                            --text "====================================\n ❤️ HAMAN Vps MANAGER⭐️ \n====================================\n\n◈─────⪧ IMPORTANT ⪦──────◈\n\n◈لطفا اطلاعات خود را در اختیار دیگران قرار ندهید. از این بخش اسکرین شات بگیرید که داشته باشید.\n\n◈─────⪧ مشخصات اکانت ⪦─────◈\n\n◈ ادرس سرور :⪧ $(cat /etc/IP)\n◈ Username :⪧ $(awk -F " " '/Nome/ {print $2}' $CAD_ARQ)\n◈ رمز شما :⪧ $(awk -F " " '/Senha/ {print $2}' $CAD_ARQ)\n◈ تعداد کاربر شما:⪧ $(awk -F " " '/Limite/ {print $2}' $CAD_ARQ)\n◈ تاریخ انقضای اکانت⪧ $(awk -F " " '/Validade/ {print $2}' $CAD_ARQ)\n\n◈ BadVPN ⌁ 7300\n\n
                             --parse_mode html
                         break
                     }
@@ -2095,7 +2095,7 @@ while :; do
                     alterar_senha_user $(cat /tmp/name-s) ${message_text[$id]}
                     [[ "$_erro" == '1' ]] && break
                     ShellBot.sendMessage --chat_id ${message_from_id[$id]} \
-                        --text "$(echo -e "◈──────────────────◈\n<b>✅ PASSWORD CHANGED !</b> !\n◈──────────────────◈\n\n<b>User:</b> $(cat /tmp/name-s)\n<b>New Password:</b> ${message_text[$id]}")" \
+                        --text "$(echo -e "◈──────────────────◈\n<b>✅ تغییر پسورد با موفقات  !</b> !\n◈──────────────────◈\n\n<b>برای هاربر:</b> $(cat /tmp/name-s)\n<b>New Password:</b> ${message_text[$id]}")" \
                         --parse_mode html
                     rm /tmp/name-s >/dev/null 2>&1
                     ;;
